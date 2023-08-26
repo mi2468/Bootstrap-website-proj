@@ -1,0 +1,205 @@
+
+/* .navbar {
+    justify-content: space-evenly;
+    display: flex;
+} */
+
+body,html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar-nav {
+    margin-left: 11rem;
+}
+
+.m-about-nav {
+    margin-left: 22rem;
+}
+
+.shop-nav {
+    margin-left: 17rem;
+}
+
+.nav-item {
+    margin: 12px;
+}
+
+.shopbtn {
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    /* width: 20%; */
+    font-size: 22px;
+}
+
+.carousel-caption h1, p {
+    color: rgba(247, 247, 6, 0.952);
+}
+
+.head-text {
+    color: #fff;
+}
+
+.head-text2 {
+   color: whitesmoke;
+}
+
+.lead {
+    color: #000;
+    margin-top: -105px;
+}
+
+.col-md-5 img {
+    border-radius: 12px;
+    margin: 7rem 0rem 5rem 0rem;
+}
+
+.about-head {
+    margin: 7rem 0rem;
+}
+
+.shop-card {
+    margin-bottom: 3rem;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.col .card img{
+    transition: scale 400ms;
+}
+
+.col .card img:hover {
+   scale: 120%;
+}
+
+.card-text {
+    color: #000;
+}
+
+.test-card {
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.test-card i {
+    color: rgba(247, 247, 6, 0.952);
+}
+
+.test-img img {
+    overflow: hidden;
+}
+
+.col-lg-4 img {
+    transition: scale .5s;
+}
+
+.col-lg-4  img:hover {
+    scale: 110%;
+}
+
+.footer i {
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+}
+
+.social-media i {
+    position: static;
+}
+
+.fa-brands {
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.social-media i:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* .card-body {
+    text-align: center;
+} */
+
+@media(max-width:940px){
+    .navbar-nav {
+    margin-left: 0rem !important;
+    }
+}
+
+@media(max-width: 740px){
+    .container .row {
+      text-align: -webkit-center;   
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-5 img {
+        margin: 3rem auto;
+    }
+
+    .m-b {
+        margin-bottom:  4rem;
+    }
+}
+
+/* Contact Page Start */
+
+.contact-nav{
+    margin-left: 30rem;
+
+}
+
+.g-3 {
+    margin-top: 7rem;
+}
+
+form h1 {
+    text-shadow: 2px 2px 5px grey;
+}
+
+@media(max-width: 991px) {
+    .contact-nav {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer .fa-circle-up {
+        right: 2rem;
+        bottom: 4rem;
+    }
+}
+
+/* More About */
+
+.col-sm-18 .card {
+    margin-bottom: 4rem;
+}
+
+.m-cont {
+    margin-top: 10rem;
+}
+
+.font-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.font-icon img {
+    padding-right: 4%;
+}
+
+/* catg-1 */
+ .catg-1 {
+    margin-top: 3rem;
+ }
+
+ .catg-h {
+    margin-top: 10rem;
+    /* color: rgba(247, 247, 6, 0.952); */
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px grey;
+ }
