@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /* .navbar {
     justify-content: space-evenly;
@@ -7,6 +10,42 @@
 body,html {
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+h4, h1, h2,h3 {
+    font-family: 'Calligraffitti', cursive;
+}
+
+.head-text,.head-text2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}  
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navbar ul li a {
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.montserrat h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-nav {
@@ -160,7 +199,7 @@ body,html {
 /* Contact Page Start */
 
 .contact-nav{
-    margin-left: 30rem;
+    margin-left: 29rem;
 
 }
 
